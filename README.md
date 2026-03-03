@@ -39,4 +39,4 @@ I am a **Computer Science undergraduate at BIT Mesra** passionate about building
 ---
 
 ### 📫 Connect with me:
-[LinkedIn](https://linkedin.com/in/D3S-Gaurav) | [LeetCode](https://leetcode.com/u/D3S-Gaurav/)
+[LinkedIn](https://www.linkedin.com/in/kumar-gaurav-ab443928b/)
