@@ -1,9 +1,9 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:f5c2e7,100:94e2d5&height=210&section=header&text=Kumar%20Gaurav&fontSize=54&fontColor=1e1e2e&fontAlignY=36&desc=Full-Stack%20Engineer%20%C2%B7%20Open%20Source%20Contributor&descAlignY=58&descSize=17&animation=fadeIn" alt="Kumar Gaurav"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:f5c2e7,100:94e2d5&height=210&section=header&text=Kumar%20Gaurav&fontSize=54&fontColor=1e1e2e&fontAlignY=36&desc=Backend%20%C2%B7%20Full-Stack%20Engineer%20%C2%B7%20Open%20Source&descAlignY=58&descSize=17&animation=fadeIn" alt="Kumar Gaurav"/>
 
-<img src="https://img.shields.io/badge/TypeScript%20%C2%B7%20Next.js%20%C2%B7%20Python-313244?style=for-the-badge&labelColor=181825&color=313244" alt="stack"/>
+<img src="https://img.shields.io/badge/TypeScript%20%C2%B7%20Go%20%C2%B7%20Python-313244?style=for-the-badge&labelColor=181825&color=313244" alt="stack"/>
 <img src="https://img.shields.io/badge/Patches%20merged%20into%20production%20OSS-cba6f7?style=for-the-badge&labelColor=181825" alt="oss"/>
 
 <br/><br/>
@@ -11,8 +11,8 @@
 <a href="https://github.com/D3S-Gaurav?tab=followers"><img src="https://img.shields.io/github/followers/D3S-Gaurav?style=for-the-badge&logo=github&logoColor=cba6f7&labelColor=181825&color=313244" alt="followers"/></a>
 <img src="https://komarev.com/ghpvc/?username=D3S-Gaurav&style=for-the-badge&color=cba6f7&label=VIEWS" alt="views"/>
 <a href="mailto:kumargauravrocco2724@gmail.com"><img src="https://img.shields.io/badge/Email-313244?style=for-the-badge&logo=gmail&logoColor=f5c2e7&labelColor=181825" alt="email"/></a>
-<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-313244?style=for-the-badge&logo=linkedin&logoColor=89b4fa&labelColor=181825" alt="linkedin"/></a>
-<a href="https://codeforces.com/profile/"><img src="https://img.shields.io/badge/Codeforces-313244?style=for-the-badge&logo=codeforces&logoColor=fab387&labelColor=181825" alt="codeforces"/></a>
+<a href="https://www.linkedin.com/in/kumar-gaurav-cs"><img src="https://img.shields.io/badge/LinkedIn-313244?style=for-the-badge&logo=linkedin&logoColor=89b4fa&labelColor=181825" alt="linkedin"/></a>
+<a href="https://codeforces.com/profile/ATHEUS"><img src="https://img.shields.io/badge/Codeforces-313244?style=for-the-badge&logo=codeforces&logoColor=fab387&labelColor=181825" alt="codeforces"/></a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:cba6f7,50:f5c2e7,100:94e2d5&height=3" alt=""/>
 
@@ -24,9 +24,9 @@
 
 ```ts
 const gaurav = {
-  role:     "Full-Stack Engineer",
-  focus:    ["TypeScript", "Next.js", "Node", "Python"],
-  building: ["self-hosting agents", "agri-ML dashboards", "realtime chat"],
+  role:     "Backend / Full-Stack Engineer",
+  focus:    ["TypeScript", "Go", "Python", "PostgreSQL"],
+  building: ["multi-agent LLM orchestration", "realtime chat", "IoT soil analytics"],
   openSource: {
     merged: ["oppia/oppia ×2", "fossology/fossology"],
     active: ["karmada-io/karmada (Go)", "joomla/joomla-cms (PHP)"],
@@ -37,8 +37,8 @@ const gaurav = {
 ```
 
 - 🔧 I like **unglamorous work that unblocks people** — flaky tests, broken CI matrices, lint rules that kill whole classes of bugs.
-- 🪷 Wrote a custom ESLint rule for **Oppia** (6.7k ★) banning `ViewEncapsulation.None` — filed the bug, proposed the fix, shipped it.
-- 🧩 Comfortable dropping into an unfamiliar 300k-file monorepo and landing a scoped change.
+- 🪷 Shipped a custom ESLint rule for **Oppia** that blocks undocumented `ViewEncapsulation.None` — picked up a stalled maintainer request, added 10 RuleTester tests and a 41-file legacy allowlist so CI stayed green.
+- 📈 Load-tested my own chat server with **k6** to 5,000 concurrent sockets and found where a single Node process stops keeping up.
 - 📫 **kumargauravrocco2724@gmail.com**
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:cba6f7,50:f5c2e7,100:94e2d5&height=3" alt=""/>
@@ -101,21 +101,20 @@ const gaurav = {
 
 <img src="https://img.shields.io/badge/Upstream%20orgs-5-cba6f7?style=for-the-badge&labelColor=181825" alt="orgs"/>
 <img src="https://img.shields.io/badge/PRs%20merged-3-a6e3a1?style=for-the-badge&labelColor=181825" alt="merged"/>
-<img src="https://img.shields.io/badge/Combined%20stars-19k%2B-f9e2af?style=for-the-badge&labelColor=181825" alt="stars"/>
 <img src="https://img.shields.io/badge/Languages-TS%20·%20Go%20·%20PHP%20·%20Python-94e2d5?style=for-the-badge&labelColor=181825" alt="langs"/>
 
 </div>
 
-> Patches sent upstream to projects I actually use. I open the issue first, then the PR.
+> Patches sent upstream: 3 merged, the rest open or closed as listed.
 
 | Project | ★ | What I did | |
 | :--- | :---: | :--- | :---: |
-| [**oppia/oppia**](https://github.com/oppia/oppia) | `6.7k` | Custom ESLint rule banning undocumented `ViewEncapsulation.None` | ![](https://img.shields.io/badge/merged-a6e3a1?style=flat-square&labelColor=181825) |
-| [**oppia/oppia**](https://github.com/oppia/oppia) | `6.7k` | Fixed classroom-field text overflow | ![](https://img.shields.io/badge/merged-a6e3a1?style=flat-square&labelColor=181825) |
-| [**fossology/fossology**](https://github.com/fossology/fossology) | `1.0k` | Vagrant base box upgrade `focal → jammy` | ![](https://img.shields.io/badge/merged-a6e3a1?style=flat-square&labelColor=181825) |
-| [**karmada-io/karmada**](https://github.com/karmada-io/karmada) | `5.5k` | **Go** — `karmadactl` returns errors instead of `os.Exit` | ![](https://img.shields.io/badge/in%20review-f9e2af?style=flat-square&labelColor=181825) |
-| [**joomla/joomla-cms**](https://github.com/joomla/joomla-cms) | `5.1k` | **PHP** — CI artifact collisions, flaky Cypress specs, `pcntl_waitpid` flags | ![](https://img.shields.io/badge/in%20review-f9e2af?style=flat-square&labelColor=181825) |
-| [**ohcnetwork/care_fe**](https://github.com/ohcnetwork/care_fe) | `623` | Debug-log cleanup + missing i18n strings | ![](https://img.shields.io/badge/reviewed-6c7086?style=flat-square&labelColor=181825) |
+| [**oppia/oppia**](https://github.com/oppia/oppia/pull/26520) | `6.8k` | Custom ESLint rule blocking undocumented `ViewEncapsulation.None` — 10 tests, 41-file legacy allowlist | ![](https://img.shields.io/badge/merged-a6e3a1?style=flat-square&labelColor=181825) |
+| [**oppia/oppia**](https://github.com/oppia/oppia/pull/24609) | `6.8k` | Fixed classroom-admin text overflow | ![](https://img.shields.io/badge/merged-a6e3a1?style=flat-square&labelColor=181825) |
+| [**fossology/fossology**](https://github.com/fossology/fossology/pull/3391) | `1.0k` | Vagrant base box upgrade `focal → jammy` | ![](https://img.shields.io/badge/merged-a6e3a1?style=flat-square&labelColor=181825) |
+| [**karmada-io/karmada**](https://github.com/karmada-io/karmada/pull/7517) | `5.7k` | **Go** — `karmadactl` returns errors instead of `os.Exit` | ![](https://img.shields.io/badge/open-f9e2af?style=flat-square&labelColor=181825) |
+| [**joomla/joomla-cms**](https://github.com/joomla/joomla-cms) | `5.1k` | **PHP** — CI artifact collisions, flaky Cypress specs, `pcntl_waitpid` flags | ![](https://img.shields.io/badge/open-f9e2af?style=flat-square&labelColor=181825) |
+| [**ohcnetwork/care_fe**](https://github.com/ohcnetwork/care_fe) | `623` | Debug-log cleanup + missing i18n strings | ![](https://img.shields.io/badge/closed-6c7086?style=flat-square&labelColor=181825) |
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:cba6f7,50:f5c2e7,100:94e2d5&height=3" alt=""/>
 
@@ -127,24 +126,33 @@ const gaurav = {
 <tr>
 <td width="50%" valign="top">
 
-### 🌾 [soil-suitability-app](https://github.com/D3S-Gaurav/soil-suitability-app)
+### 🧵 [Loom](https://github.com/D3S-Gaurav/Loom)
 
-Crop-suitability dashboard — **Next.js** frontend over a **Python** analysis backend. Modular V2 architecture, admin IP bypass, prompt-injection hardening on the AI route.
+Multi-agent LLM orchestrator: a planner turns one goal into a task **DAG**, workers run in parallel, a validator requests revisions. Events flow Redis → **Kafka** → a **Go** fan-out service → **gRPC** / WebSocket to a live React Flow graph.
 
-<img src="https://img.shields.io/badge/Next.js-313244?style=flat-square&logo=nextdotjs&logoColor=cdd6f4&labelColor=181825"/> <img src="https://img.shields.io/badge/Python-313244?style=flat-square&logo=python&logoColor=94e2d5&labelColor=181825"/> <img src="https://img.shields.io/badge/JavaScript-313244?style=flat-square&logo=javascript&logoColor=f9e2af&labelColor=181825"/>
+<img src="https://img.shields.io/badge/Go-313244?style=flat-square&logo=go&logoColor=89dceb&labelColor=181825"/> <img src="https://img.shields.io/badge/Kafka-313244?style=flat-square&logo=apachekafka&logoColor=cdd6f4&labelColor=181825"/> <img src="https://img.shields.io/badge/Next.js-313244?style=flat-square&logo=nextdotjs&logoColor=cdd6f4&labelColor=181825"/>
 
 </td>
 <td width="50%" valign="top">
 
 ### 💬 [ChatFlow](https://github.com/D3S-Gaurav/chat-fullstack)
 
-Realtime group chat on **Socket.IO** with live WebSocket broadcast and cursor pagination over a composite `(groupId, createdAt)` index. Load-tested with **k6** — traced the real bottleneck to the Prisma connection pool, not the socket layer.
+Realtime group chat on **Socket.IO** with a typed event contract and cursor pagination. **k6**: 5,000 concurrent sockets, ~97k message deliveries/s at zero loss on one Node process — the ceiling is the single-threaded broadcast, not connections.
 
-<img src="https://img.shields.io/badge/TypeScript-313244?style=flat-square&logo=typescript&logoColor=89b4fa&labelColor=181825"/> <img src="https://img.shields.io/badge/Socket.IO-313244?style=flat-square&logo=socketdotio&logoColor=f5c2e7&labelColor=181825"/> <img src="https://img.shields.io/badge/Prisma-313244?style=flat-square&logo=prisma&logoColor=94e2d5&labelColor=181825"/>
+<img src="https://img.shields.io/badge/TypeScript-313244?style=flat-square&logo=typescript&logoColor=89b4fa&labelColor=181825"/> <img src="https://img.shields.io/badge/Socket.IO-313244?style=flat-square&logo=socketdotio&logoColor=f5c2e7&labelColor=181825"/> <img src="https://img.shields.io/badge/k6-313244?style=flat-square&logo=k6&logoColor=cba6f7&labelColor=181825"/>
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 🌾 [SoilSense](https://github.com/D3S-Gaurav/soil-suitability-app)
+
+Schneider Electric Hackathon 2026 team project — live soil sensor dashboard (**Next.js** + **FastAPI**) with a 22-crop rules engine, prompt-injection-guarded Gemini analysis and a 2.3× faster all-crops scan.
+
+<img src="https://img.shields.io/badge/Next.js-313244?style=flat-square&logo=nextdotjs&logoColor=cdd6f4&labelColor=181825"/> <img src="https://img.shields.io/badge/FastAPI-313244?style=flat-square&logo=fastapi&logoColor=94e2d5&labelColor=181825"/> <img src="https://img.shields.io/badge/Python-313244?style=flat-square&logo=python&logoColor=94e2d5&labelColor=181825"/>
+
+</td>
 <td width="50%" valign="top">
 
 ### 🎓 [College Predictor](https://github.com/D3S-Gaurav/CollegePredictor)
@@ -152,15 +160,6 @@ Realtime group chat on **Socket.IO** with live WebSocket broadcast and cursor pa
 **Playwright** ETL pipeline scraping JoSAA/CSAB cutoffs from a legacy ASP.NET WebForms site — 50k+ records across 120+ institutes, served by an eligibility-prediction API with batched cross-year lookups.
 
 <img src="https://img.shields.io/badge/Next.js-313244?style=flat-square&logo=nextdotjs&logoColor=cdd6f4&labelColor=181825"/> <img src="https://img.shields.io/badge/PostgreSQL-313244?style=flat-square&logo=postgresql&logoColor=89b4fa&labelColor=181825"/> <img src="https://img.shields.io/badge/Prisma-313244?style=flat-square&logo=prisma&logoColor=94e2d5&labelColor=181825"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 [SelfHostingAgent](https://github.com/D3S-Gaurav/SelfHostingAgent)
-
-Self-hosting agent runtime on **Bun** + **Drizzle** + **Docker Compose**, laid out as a package monorepo with versioned migrations.
-
-<img src="https://img.shields.io/badge/TypeScript-313244?style=flat-square&logo=typescript&logoColor=89b4fa&labelColor=181825"/> <img src="https://img.shields.io/badge/Bun-313244?style=flat-square&logo=bun&logoColor=fab387&labelColor=181825"/> <img src="https://img.shields.io/badge/Docker-313244?style=flat-square&logo=docker&logoColor=89dceb&labelColor=181825"/>
 
 </td>
 </tr>
@@ -175,7 +174,7 @@ Self-hosting agent runtime on **Bun** + **Drizzle** + **Docker Compose**, laid o
 ### 🌸 &nbsp;Let's talk
 
 <a href="mailto:kumargauravrocco2724@gmail.com"><img src="https://img.shields.io/badge/Gmail-cba6f7?style=for-the-badge&logo=gmail&logoColor=1e1e2e" alt="gmail"/></a>
-<a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-f5c2e7?style=for-the-badge&logo=linkedin&logoColor=1e1e2e" alt="linkedin"/></a>
+<a href="https://www.linkedin.com/in/kumar-gaurav-cs"><img src="https://img.shields.io/badge/LinkedIn-f5c2e7?style=for-the-badge&logo=linkedin&logoColor=1e1e2e" alt="linkedin"/></a>
 <a href="https://github.com/D3S-Gaurav"><img src="https://img.shields.io/badge/GitHub-94e2d5?style=for-the-badge&logo=github&logoColor=1e1e2e" alt="github"/></a>
 
 <br/><br/>
