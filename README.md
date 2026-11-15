@@ -1,5 +1,3 @@
-**Google Summer of Code** @Oppia
-
 [![Linkedin Badge](https://img.shields.io/badge/-kumar--gaurav--cs-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/kumar-gaurav-cs)](https://linkedin.com/in/kumar-gaurav-cs) [![Codeforces Badge](https://img.shields.io/badge/-Specialist%20(1440)-03A89E?style=flat-square&logo=codeforces&logoColor=white&link=https://codeforces.com/profile/ATHEUS)](https://codeforces.com/profile/ATHEUS) [![LeetCode Badge](https://img.shields.io/badge/-ATHEUS__007-FFA116?style=flat-square&logo=leetcode&logoColor=white&link=https://leetcode.com/u/ATHEUS_007/)](https://leetcode.com/u/ATHEUS_007/)
 
 ### Works
